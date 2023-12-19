@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71E1FB9B2B2C1C1800B24E35 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E1FB9A2B2C1C1800B24E35 /* CustomAlertView.swift */; };
 		9CA377672B2AE0DF00A2B842 /* AlertKit_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA377662B2AE0DF00A2B842 /* AlertKit_iOSApp.swift */; };
 		9CA377692B2AE0DF00A2B842 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA377682B2AE0DF00A2B842 /* ContentView.swift */; };
 		9CA3776B2B2AE0E000A2B842 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA3776A2B2AE0E000A2B842 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71E1FB9A2B2C1C1800B24E35 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		9CA377632B2AE0DF00A2B842 /* AlertKit-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AlertKit-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA377662B2AE0DF00A2B842 /* AlertKit_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertKit_iOSApp.swift; sourceTree = "<group>"; };
 		9CA377682B2AE0DF00A2B842 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71E1FB992B2C1BEE00B24E35 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				71E1FB9A2B2C1C1800B24E35 /* CustomAlertView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9CA3775A2B2AE0DF00A2B842 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		9CA377652B2AE0DF00A2B842 /* AlertKit-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				71E1FB992B2C1BEE00B24E35 /* Views */,
 				9CA377662B2AE0DF00A2B842 /* AlertKit_iOSApp.swift */,
 				9CA377682B2AE0DF00A2B842 /* ContentView.swift */,
 				9CA3776A2B2AE0E000A2B842 /* Assets.xcassets */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71E1FB9B2B2C1C1800B24E35 /* CustomAlertView.swift in Sources */,
 				9CA377692B2AE0DF00A2B842 /* ContentView.swift in Sources */,
 				9CA377672B2AE0DF00A2B842 /* AlertKit_iOSApp.swift in Sources */,
 			);

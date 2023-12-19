@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct AlertKit_iOSApp: App {
+    
+    var environment = Environment(descFontSize: 16.0, primaryButtonColor: .yellow, secondaryButtonColor: .colorGray, backgroundColor: .colorBackground, primaryButtonTextColor: .black, secondaryButtonTextColor: .colorTitle, titleColor: .black)
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(environment)
         }
     }
 }
