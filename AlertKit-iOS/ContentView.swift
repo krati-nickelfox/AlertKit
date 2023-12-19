@@ -14,20 +14,20 @@ struct ContentView: View {
     @State var alertWithAnotherMessage = false
     
     var body: some View {
-        ZStack(alignment: .leading){
+        ZStack(alignment: .center){
             VStack{
                 Button("Alert with 2 buttons"){
                     alertWithTwoButtons.toggle()
                 }
                 Button("Alert with 1 button") {
                     alertWithOneButton.toggle()
-                }.padding(.top, 10)
+                }.padding(.top, 50)
                 Button("Alert with different Title") {
                     alertWithAnotherTitle.toggle()
-                }.padding(.top, 10)
+                }.padding(.top, 50)
                 Button("Alert with different Message") {
                     alertWithAnotherMessage.toggle()
-                }.padding(.top, 10)
+                }.padding(.top, 50)
             }
             
             if alertWithTwoButtons{

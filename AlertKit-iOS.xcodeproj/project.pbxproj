@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		713FB2202B317651006E2E20 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 713FB21B2B317651006E2E20 /* Roboto-Regular.ttf */; };
+		713FB2212B317651006E2E20 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 713FB21C2B317651006E2E20 /* Roboto-Italic.ttf */; };
+		713FB2222B317651006E2E20 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 713FB21D2B317651006E2E20 /* Roboto-Bold.ttf */; };
+		713FB2232B317651006E2E20 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 713FB21E2B317651006E2E20 /* Roboto-Light.ttf */; };
+		713FB2242B317651006E2E20 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 713FB21F2B317651006E2E20 /* Roboto-Medium.ttf */; };
 		71E1FB9B2B2C1C1800B24E35 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E1FB9A2B2C1C1800B24E35 /* CustomAlertView.swift */; };
 		9CA377672B2AE0DF00A2B842 /* AlertKit_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA377662B2AE0DF00A2B842 /* AlertKit_iOSApp.swift */; };
 		9CA377692B2AE0DF00A2B842 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA377682B2AE0DF00A2B842 /* ContentView.swift */; };
@@ -15,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		713FB21B2B317651006E2E20 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		713FB21C2B317651006E2E20 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		713FB21D2B317651006E2E20 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		713FB21E2B317651006E2E20 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		713FB21F2B317651006E2E20 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		713FB2252B31A0F1006E2E20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		71E1FB9A2B2C1C1800B24E35 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		9CA377632B2AE0DF00A2B842 /* AlertKit-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AlertKit-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CA377662B2AE0DF00A2B842 /* AlertKit_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertKit_iOSApp.swift; sourceTree = "<group>"; };
@@ -34,6 +45,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		713FB21A2B317604006E2E20 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				713FB21D2B317651006E2E20 /* Roboto-Bold.ttf */,
+				713FB21C2B317651006E2E20 /* Roboto-Italic.ttf */,
+				713FB21E2B317651006E2E20 /* Roboto-Light.ttf */,
+				713FB21F2B317651006E2E20 /* Roboto-Medium.ttf */,
+				713FB21B2B317651006E2E20 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		71E1FB992B2C1BEE00B24E35 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +84,8 @@
 		9CA377652B2AE0DF00A2B842 /* AlertKit-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				713FB2252B31A0F1006E2E20 /* Info.plist */,
+				713FB21A2B317604006E2E20 /* Fonts */,
 				71E1FB992B2C1BEE00B24E35 /* Views */,
 				9CA377662B2AE0DF00A2B842 /* AlertKit_iOSApp.swift */,
 				9CA377682B2AE0DF00A2B842 /* ContentView.swift */,
@@ -136,6 +161,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				713FB2202B317651006E2E20 /* Roboto-Regular.ttf in Resources */,
+				713FB2212B317651006E2E20 /* Roboto-Italic.ttf in Resources */,
+				713FB2232B317651006E2E20 /* Roboto-Light.ttf in Resources */,
+				713FB2242B317651006E2E20 /* Roboto-Medium.ttf in Resources */,
+				713FB2222B317651006E2E20 /* Roboto-Bold.ttf in Resources */,
 				9CA3776E2B2AE0E000A2B842 /* Preview Assets.xcassets in Resources */,
 				9CA3776B2B2AE0E000A2B842 /* Assets.xcassets in Resources */,
 			);
@@ -287,6 +317,7 @@
 				DEVELOPMENT_TEAM = 2P7R4H9ZM8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AlertKit-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -316,6 +347,7 @@
 				DEVELOPMENT_TEAM = 2P7R4H9ZM8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AlertKit-iOS/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
